@@ -96,7 +96,7 @@ section{
 }
 .field-area{
    display: grid;
-   grid-template-columns: repeat(4,1fr);
+   grid-template-columns: repeat(6,1fr);
  
 }
 .field-decorate{
@@ -107,6 +107,12 @@ section{
 }
 .field-img img{
 width: 100%;
+}
+
+
+.fo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 /* section css is end */
 
