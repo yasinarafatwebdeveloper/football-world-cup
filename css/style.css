@@ -1,0 +1,139 @@
+
+/* font set up */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+/* font set up in body */
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*header css is start */
+header{
+    display: grid;
+    justify-content: center;
+
+}
+.world-cup{
+   width: 1000px;
+   background-color: black;
+   height: 550px;
+    border-radius: 20px;
+}
+.football{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.world-cup-indigate {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.world-cup-indigate h1{
+    font-size: 50px;
+    color: white;
+}
+.world-cup-indigate p{
+    font-size: 30px;
+    color: white;
+}
+
+.world-cup-button{
+    width: 200px;
+    height: 30px;
+}
+.play-button{
+    width: 143px;
+    height: 49px;
+    background: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 13px;
+}
+.player-picture img{
+    width: 400px;
+}
+/* header css is end */
+
+
+/*section css is start */
+section{
+    display: grid;
+    justify-content: center;
+}
+.upcoming-match{
+    width: 1000px;
+  
+}
+.schdule{
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    margin-top: 100px;
+    border-radius: 12px;
+}
+.play-time input{
+    width: 250px;
+    height: 50px;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.play-time-button input{
+    width: 250px;
+    height: 50px;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 25px;
+    background-color: red;
+}
+.field-area{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+ 
+}
+.field-decorate{
+    width: 200px;
+    margin-top: 50px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.field-img img{
+width: 100%;
+}
+/* section css is end */
+
+/* footer css is start */
+
+
+footer{
+    background-color: black;
+    height: 500px;
+}
+ 
+  
+.goal{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+hr{
+    width: 700px;
+    text-align: center;
+}
+.service{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+.play-description{
+    text-align: center;
+    margin-top: 70px;
+}
