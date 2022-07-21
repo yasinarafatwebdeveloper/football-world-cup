@@ -96,7 +96,7 @@ section{
 }
 .field-area{
    display: grid;
-   grid-template-columns: repeat(6,1fr);
+   grid-template-columns:repeat(3,1fr);
  
 }
 .field-decorate{
@@ -104,13 +104,27 @@ section{
     margin-top: 50px;
     margin-top: 100px;
     margin-left: 30px;
+    box-shadow: 0px 0px 3px 0px;
+    border-radius: 5px;
+    height: 255px;
+}
+.play-style{
+   text-align: center;
+
 }
 .field-img img{
 width: 100%;
 }
+.field-decoration{
+    width: 200px;
+  margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 3px 0px;
+    border-radius: 5px;
+    height: 255px;
+}
 
-
-.fo{
+.world-cup-celebration{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
