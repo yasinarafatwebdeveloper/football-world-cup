@@ -12,8 +12,27 @@ header{
     justify-content: center;
 
 }
+.play-button{
+    width: 100px;
+  height: 100px;
+  background:red;
+  transition: width 2s, height 4s;
+}
+
+.round{
+    width: 60px;
+    height: 70px;
+    background-color:white;
+    border-radius: 50px;
+  
+ margin-left: 700px;
+}
+.play-button:hover {
+    width: 300px;
+    height: 70px;
+  }
 .world-cup{
-   width: 1000px;
+
    background-color: black;
    height: 550px;
     border-radius: 20px;
@@ -130,6 +149,17 @@ width: 100%;
 }
 /* section css is end */
 
+.team-selection{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+   width: 200px;
+}
+.hh{
+
+}
+
+
+
 /* footer css is start */
 
 
@@ -141,8 +171,11 @@ footer{
   
 .goal{
     color: white;
-    margin-top: 50px;
+
     text-align: center;
+}
+.goal-boll{
+    margin-top: 50px;
 }
 hr{
     width: 700px;
@@ -157,3 +190,10 @@ hr{
     text-align: center;
     margin-top: 70px;
 }
+.icon-world{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+}
+/* footer section is end */

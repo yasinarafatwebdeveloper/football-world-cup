@@ -7,6 +7,45 @@
     <title>football-world-cup</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+<!-- animation is start -->
+<style>
+.round {
+  width: 100px;
+  height: 100px;
+  
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+ .world-cup-celebration {
+   grid-template-columns: repeat(1,1fr); /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 570px)  {
+ .footer {
+   grid-template-columns: repeat(1,1fr); /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+
+
+
+
 </head>
 <body>
    <!-- header section is start -->
@@ -14,17 +53,22 @@
         <div class="world-cup">
             <div class="football">
                 <div class="world-cup-indigate">
-                <h1>In this year the football world cup</h1>
-               
+                      <h1>In this year the football world cup</h1>
                          <p>In this year the football  world cup start.Almost 32 country are join the world cup.Everyone like this play.I like argentina team.Messy is my favourite player.</p>
                             <div class="world-cup-button">
                            <a href="#">   <button class="play-button">world-cup-button<i class="fa-solid    fa-angle-right"></i> </button></a>
                                 </div>
+
+                                <div class="round">
+
+                                </div>
                              </div>
-               
+                           
                        <div class="player-picture">
                     <img src="img/Banner Image.png" alt="">
+                   
                 </div>
+             
             </div>
         </div>
     </header>
@@ -197,13 +241,13 @@
            </div>
         </div>
 </section>
-           <!-- work try -->
+           <!-- section is end -->
          
 <!-- footer section is start -->
     <footer>
 
        
-            <h1 class="goal">Goal</h1>
+            <h1 class="goal"> <span class="goal-boll">Goal</span></h1>
               <hr>
       
         <div class="play-description">
@@ -214,7 +258,13 @@
             <a class="service" href="">Goal App </a>
             <a class="service" href="">Goal Live</a>
         </div>
+        <div class="icon-world">
+            <i class="fa-solid fa-baseball"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-regular fa-clock"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
     </footer>
-
+<!-- footer section is end -->
 </body>
 </html>
